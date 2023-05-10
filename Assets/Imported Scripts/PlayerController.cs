@@ -5,9 +5,15 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private CharacterController characterController;
+    private Animator anim;
+
+    private float moveSpeed;
+    //[SerializeField] private float walkSpeed;
+    [SerializeField] private float runSpeed;
+
 
     public float speed;
-    public float rotationSpeed;
+    private float rotationSpeed;
     public float jumpSpeed; //
     public float jumpTime; //max amount of time character can jump
 
@@ -25,6 +31,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        anim = GetComponentInChildren<Animator>();
         originalStepOffset =  characterController.stepOffset;
         bigSlime.SetActive(false);
     }
@@ -32,12 +39,29 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Mouse0)){
+            Attack();
+        }
         // Imported
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
         movementDirection = transform.TransformDirection(movementDirection);
+
+        if(movementDirection != Vector3.zero && !Input.GetKey(KeyCode.LeftShift))//0, 0, 0
+        {
+            Walk();
+
+        }else if(movementDirection != Vector3.zero && Input.GetKey(KeyCode.LeftShift))
+        {
+            Run();
+
+        }else if(movementDirection == Vector3.zero)
+        {
+            Idle();
+        }
+
         float magnitude = Mathf.Clamp01(movementDirection.magnitude) * speed;
         movementDirection.Normalize();
 
@@ -51,6 +75,7 @@ public class PlayerController : MonoBehaviour
             isJumping = false; //
             jumpTimer = 0f;
             if(Input.GetButtonDown("Jump")){
+
                 isJumping = true;
                 ySpeed = jumpSpeed;
             }
@@ -118,6 +143,25 @@ public class PlayerController : MonoBehaviour
         // Spawn a diamond at the button's position
         Instantiate(blue_crystal, other.transform.position, Quaternion.identity);
         }   
+    }
+
+    /***********************Animations ******************************/
+
+    private void Idle(){
+        anim.SetFloat("Speed", 0, 0.1f, Time.deltaTime);
+    }
+
+    private void Walk(){
+        anim.SetFloat("Speed", 0.5f, 0.1f, Time.deltaTime);
+    }
+
+    private void Run(){
+        speed = runSpeed;
+        anim.SetFloat("Speed", 1.0f, 0.1f, Time.deltaTime);
+    }
+
+    private void Attack(){
+        anim.SetTrigger("Attack");
     }
 
 

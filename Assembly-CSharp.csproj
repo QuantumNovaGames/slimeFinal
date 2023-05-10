@@ -38,7 +38,9 @@
   <ItemGroup>
      <Compile Include="Assets\Kawaii Slimes\Scripts\AI\Face.cs" />
      <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Cong Scripts\CharController.cs" />
      <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
+     <Compile Include="Assets\Cong Scripts\camCong.cs" />
      <Compile Include="Assets\Imported Scripts\PlayerController.cs" />
      <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
      <Compile Include="Assets\Imported Scripts\cam.cs" />
@@ -47,7 +49,6 @@
      <Compile Include="Assets\Imported Scripts\Play_collect.cs" />
      <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
      <Compile Include="Assets\Imported Scripts\EnemyController.cs" />
-     <Compile Include="Assets\Cong Scripts\camCong.cs" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloZOffset.hlsl" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample.shader" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
