@@ -36,17 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Imported Scripts\Play_collect.cs" />
-     <Compile Include="Assets\Imported Scripts\cam.cs" />
-     <Compile Include="Assets\Imported Scripts\EnemyController.cs" />
-     <Compile Include="Assets\Imported Scripts\Collectibles.cs" />
-     <Compile Include="Assets\Imported Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
-     <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
-     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
-     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\AbstractTargetFollower.cs" />
      <Compile Include="Assets\Kawaii Slimes\Scripts\AI\Face.cs" />
+     <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
+     <Compile Include="Assets\Imported Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\Imported Scripts\cam.cs" />
+     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\Imported Scripts\Collectibles.cs" />
+     <Compile Include="Assets\Imported Scripts\Play_collect.cs" />
+     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
+     <Compile Include="Assets\Imported Scripts\EnemyController.cs" />
+     <Compile Include="Assets\Cong Scripts\camCong.cs" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloZOffset.hlsl" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample.shader" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
@@ -677,8 +678,14 @@
     <Reference Include="Unity.VisualScripting.Flow.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -734,6 +741,9 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
@@ -742,15 +752,6 @@
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

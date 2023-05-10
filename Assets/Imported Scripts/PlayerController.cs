@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
 
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        movementDirection = transform.TransformDirection(movementDirection);
         float magnitude = Mathf.Clamp01(movementDirection.magnitude) * speed;
         movementDirection.Normalize();
 
@@ -72,11 +73,11 @@ public class PlayerController : MonoBehaviour
         velocity.y = ySpeed; //
         characterController.Move(velocity * Time.deltaTime);
 
-        if(movementDirection != Vector3.zero) {
-            Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+        //if(movementDirection != Vector3.zero) {
+            //Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
 
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
-        }
+            //transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        //}
 
          if(Input.GetKeyDown(KeyCode.S))
          {
