@@ -104,11 +104,11 @@ public class PlayerController : MonoBehaviour
             //transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         //}
 
-         if(Input.GetKeyDown(KeyCode.S))
-         {
-            ActivateChildObject();
+         //if(Input.GetKeyDown(KeyCode.S))
+         //{
+           // ActivateChildObject();
 
-         }
+        // }
     }
 
     private void ActivateChildObject()
@@ -145,6 +145,7 @@ public class PlayerController : MonoBehaviour
         }   
     }
 
+
     /***********************Animations ******************************/
 
     private void Idle(){
@@ -164,6 +165,27 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Attack");
     }
 
+    /********************** Collider ***********************/
+
+    //the following section allows character controller to push things away
+    [SerializeField]
+    private float forceMagnitude;
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        var rigidBody = hit.collider.attachedRigidbody;
+
+        if (rigidBody != null)
+        {
+            var forceDirection = hit.gameObject.transform.position - transform.position;
+            forceDirection.y = 0;
+            forceDirection.Normalize();
+            
+            rigidBody.AddForceAtPosition(forceDirection * forceMagnitude, transform.position, ForceMode.Impulse);
+
+            
+        }
+    }
 
 
    
