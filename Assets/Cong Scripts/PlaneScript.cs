@@ -8,6 +8,8 @@ public class PlaneScript : MonoBehaviour
   private void OnCollisionEnter(Collision other)
   {
     ScoreScript.score += 3;
+    PlayerPrefs.SetInt("HighScore", ScoreScript.score);
+    PlayerPrefs.SetInt("levelAt", SceneManager.GetActiveScene().buildIndex + 1);
     SceneManager.LoadScene("WinScreen");
   }
   // Start is called before the first frame update
