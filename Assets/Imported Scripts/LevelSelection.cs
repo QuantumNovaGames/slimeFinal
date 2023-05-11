@@ -71,13 +71,15 @@ public class LevelSelection : MonoBehaviour
     selectedLevel = 0;
     SceneManager.LoadScene("Level1");
     Debug.Log("Player selected level 1");
-  }
+    BGmusic.instance.GetComponent<AudioSource>().Pause();
+   }
 
   public void GoToLevel2()
   {
     selectedLevel = 1;
     SceneManager.LoadScene("Level2");
     Debug.Log("Player selected level 2");
+    BGmusic.instance.GetComponent<AudioSource>().Pause();
   }
 
   public void GoToLevel3()
@@ -85,6 +87,7 @@ public class LevelSelection : MonoBehaviour
     selectedLevel = 2;
     SceneManager.LoadScene("Level3");
     Debug.Log("Player selected level 3");
+    BGmusic.instance.GetComponent<AudioSource>().Pause();
   }
 
   public void GoToLevel4()
@@ -92,12 +95,14 @@ public class LevelSelection : MonoBehaviour
     selectedLevel = 3;
     SceneManager.LoadScene("Level4");
     Debug.Log("Player selected level 4");
-  }
+    BGmusic.instance.GetComponent<AudioSource>().Pause();
+   }
 
   public void GoToLevel5()
   {
     selectedLevel = 4;
     SceneManager.LoadScene("Level5");
     Debug.Log("Player selected level 5");
+    BGmusic.instance.GetComponent<AudioSource>().Pause();
   }
 }

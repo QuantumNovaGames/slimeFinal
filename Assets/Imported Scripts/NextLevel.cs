@@ -14,10 +14,12 @@ public class NextLevel : MonoBehaviour
   public void NextLevelButton()
   {
     SceneManager.LoadScene("LevelSelection");
+    BGmusic.instance.GetComponent<AudioSource>().Play();
   }
 
   public void MainMenuButton()
   {
     SceneManager.LoadScene("MainMenu");
+    BGmusic.instance.GetComponent<AudioSource>().Play();
   }
 }
