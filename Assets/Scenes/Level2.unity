@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11857,11 +11857,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 7
+  hp: 300
   speed: 4
   jumpSpeed: 4
   jumpTime: 0.2
-  bigSlime: {fileID: 0}
-  blue_crystal: {fileID: 0}
+  bigSlime: {fileID: 6173172085731050060, guid: fa12db7f8a3f0714799c08ee4da865d6, type: 3}
+  blue_crystal: {fileID: 1150886427}
+  damageDelay: 1
+  m_DamageCooldown: 0
   forceMagnitude: 5
 --- !u!4 &1625201989 stripped
 Transform:

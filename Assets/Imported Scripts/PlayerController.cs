@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
   private float moveSpeed;
   //[SerializeField] private float walkSpeed;
   [SerializeField] private float runSpeed;
-  private int hp = 300;
+  public int hp = 300;
 
   public float speed;
   private float rotationSpeed;
@@ -27,6 +27,9 @@ public class PlayerController : MonoBehaviour
   private float jumpTimer; //tracks how long character jumping
   public GameObject bigSlime;
   public GameObject blue_crystal;
+
+  public float damageDelay = 1.0f;
+  public float m_DamageCooldown = 0;
 
 
   // Start is called before the first frame update
@@ -50,6 +53,9 @@ public class PlayerController : MonoBehaviour
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
       return;
     }
+
+    if(m_DamageCooldown > 0)
+      m_DamageCooldown -= Time.deltaTime;
     //
 
     //allows user to attack with Q keypress
@@ -181,7 +187,7 @@ public class PlayerController : MonoBehaviour
 
   }
 
-  private void OnTriggerEnter(Collider other)
+  /*private void OnTriggerEnter(Collider other)
   {
     if (bigSlime.activeSelf && other.gameObject.tag == "enemy")
     {
@@ -195,7 +201,7 @@ public class PlayerController : MonoBehaviour
       hp -= 100;
 
     }
-  }
+  }*/
 
 
   /***********************Animations ******************************/
@@ -246,6 +252,18 @@ public class PlayerController : MonoBehaviour
       {
         Debug.Log("Hit Enemy");
         TakeDamage();
+
+        if (bigSlime.activeSelf)
+        {
+          Destroy(hit.gameObject);
+        }else{
+          if(m_DamageCooldown > 0)
+            return;
+          m_DamageCooldown = damageDelay;
+          transform.localScale *= 0.5f;
+          hp -= 100;
+
+        }
       }
       var forceDirection = hit.gameObject.transform.position - transform.position;
       forceDirection.y = 0;
