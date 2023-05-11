@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
   private float moveSpeed;
   //[SerializeField] private float walkSpeed;
   [SerializeField] private float runSpeed;
-
+  private int hp = 300;
 
   public float speed;
   private float rotationSpeed;
@@ -43,8 +43,23 @@ public class PlayerController : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
+    //checking if user is below certain size
+
+    if (hp <= 0)
+    {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      return;
+    }
+    //
+
+    //allows user to attack with Q keypress
+    if (Input.GetKeyDown(KeyCode.Q) && bigSlime.activeSelf)
+    {
+      Attack();
+    }
+    //
     KillPlayerFall();//restart lvl if player is below 0 y axis
-    
+
     anim.SetInteger("DamageType", 2);
 
     if (anim.GetBool("Damage"))
@@ -136,11 +151,11 @@ public class PlayerController : MonoBehaviour
     //transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
     //}
 
-    //if(Input.GetKeyDown(KeyCode.S))
-    //{
-    // ActivateChildObject();
+    if (Input.GetKeyDown(KeyCode.B))
+    {
+      ActivateChildObject();
 
-    // }
+    }
   }
 
   private void ActivateChildObject()
@@ -156,6 +171,14 @@ public class PlayerController : MonoBehaviour
   {
     // Deactivate the child object
     bigSlime.SetActive(false);
+    transform.localScale *= 0.8f;
+    hp -= 100;
+    if (hp <= 0)
+    {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      return;
+    }
+
   }
 
   private void OnTriggerEnter(Collider other)
@@ -165,15 +188,12 @@ public class PlayerController : MonoBehaviour
       Destroy(other.gameObject);
     }
 
+    //if slime hits enemy in normal form, they will shrink
     if (!bigSlime.activeSelf && other.gameObject.tag == "enemy")
     {
       transform.localScale *= 0.8f;
-    }
+      hp -= 100;
 
-    if (other.gameObject.CompareTag("Button") && transform.localScale == new Vector3(1.5f, 1.5f, 1.5f))
-    {
-      // Spawn a diamond at the button's position
-      Instantiate(blue_crystal, other.transform.position, Quaternion.identity);
     }
   }
 

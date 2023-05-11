@@ -9,7 +9,7 @@ public class LevelSelection : MonoBehaviour
 {
   public Button[] lvlButtons;
   public TMP_Text[] scores = new TMP_Text[10];
-  public static int selectedLevel;
+  public static int selectedLevel = 10;
 
   public void Start()
   {
@@ -32,31 +32,34 @@ public class LevelSelection : MonoBehaviour
 
   public void setScore()
   {
-    int scoreText = PlayerPrefs.GetInt("HighScore");
+    int score1Text = PlayerPrefs.GetInt("HighScore1");
+    int score2Text = PlayerPrefs.GetInt("HighScore2");
+    int score3Text = PlayerPrefs.GetInt("HighScore3");
+    int score4Text = PlayerPrefs.GetInt("HighScore4");
+    int score5Text = PlayerPrefs.GetInt("HighScore5");
     if (selectedLevel == 0)
     {
-      scores[0].SetText("Score: " + scoreText.ToString());
-      DontDestroyOnLoad(scores[0]);
+      scores[0].SetText("Score: " + score1Text.ToString());
     }
-    if (selectedLevel == 1)
+    else if (selectedLevel == 1)
     {
-      scores[1].SetText("Score: " + scoreText.ToString());
-      DontDestroyOnLoad(scores[1]);
+      scores[1].SetText("Score: " + score2Text.ToString());
     }
-    if (selectedLevel == 2)
+    else if (selectedLevel == 2)
     {
-      scores[2].SetText("Score: " + scoreText.ToString());
-      DontDestroyOnLoad(scores[2]);
+      scores[2].SetText("Score: " + score3Text.ToString());
     }
-    if (selectedLevel == 3)
+    else if (selectedLevel == 3)
     {
-      scores[3].SetText("Score: " + scoreText.ToString());
-      DontDestroyOnLoad(scores[3]);
+      scores[3].SetText("Score: " + score4Text.ToString());
     }
-    if (selectedLevel == 4)
+    else if (selectedLevel == 4)
     {
-      scores[4].SetText("Score: " + scoreText.ToString());
-      DontDestroyOnLoad(scores[4]);
+      scores[4].SetText("Score: " + score5Text.ToString());
+    }
+    else
+    {
+      return;
     }
   }
 
@@ -69,15 +72,15 @@ public class LevelSelection : MonoBehaviour
   public void GoToLevel1()
   {
     selectedLevel = 0;
-    SceneManager.LoadScene("Level1");
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     Debug.Log("Player selected level 1");
     BGmusic.instance.GetComponent<AudioSource>().Pause();
-   }
+  }
 
   public void GoToLevel2()
   {
     selectedLevel = 1;
-    SceneManager.LoadScene("Level2");
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     Debug.Log("Player selected level 2");
     BGmusic.instance.GetComponent<AudioSource>().Pause();
   }
@@ -85,7 +88,7 @@ public class LevelSelection : MonoBehaviour
   public void GoToLevel3()
   {
     selectedLevel = 2;
-    SceneManager.LoadScene("Level3");
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     Debug.Log("Player selected level 3");
     BGmusic.instance.GetComponent<AudioSource>().Pause();
   }
@@ -93,15 +96,15 @@ public class LevelSelection : MonoBehaviour
   public void GoToLevel4()
   {
     selectedLevel = 3;
-    SceneManager.LoadScene("Level4");
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
     Debug.Log("Player selected level 4");
     BGmusic.instance.GetComponent<AudioSource>().Pause();
-   }
+  }
 
   public void GoToLevel5()
   {
     selectedLevel = 4;
-    SceneManager.LoadScene("Level5");
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
     Debug.Log("Player selected level 5");
     BGmusic.instance.GetComponent<AudioSource>().Pause();
   }
