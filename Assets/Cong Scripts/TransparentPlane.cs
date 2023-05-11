@@ -10,7 +10,9 @@ public class TransparentPlane : MonoBehaviour
   private void OnCollisionEnter(Collision other)
   {
     ScoreScript.score += 1;
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    PlayerPrefs.SetInt("HighScore", ScoreScript.score);
+    PlayerPrefs.SetInt("levelAt", SceneManager.GetActiveScene().buildIndex + 1);
+    SceneManager.LoadScene("WinScreen");
   }
   void Start()
   {
