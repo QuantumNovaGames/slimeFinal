@@ -5,24 +5,26 @@ using UnityEngine;
 public class camCong : MonoBehaviour
 {
 
-    public float mouseSensitivity;
+  public float mouseSensitivity;
 
-    private Transform parent;
+  private Transform parent;
 
-    private void Start() {
-        parent = transform.parent;
-        Cursor.lockState = CursorLockMode.Locked;
-    }
+  private void Start()
+  {
+    parent = transform.parent;
+    Cursor.lockState = CursorLockMode.Locked;
+  }
 
-    void Update()
-    {
-        Rotate();
-    }
+  void Update()
+  {
+    Rotate();
+  }
 
-    private void Rotate(){
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+  private void Rotate()
+  {
+    float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
 
-        parent.Rotate(Vector3.up, mouseX);
-    }
+    parent.Rotate(Vector3.up, mouseX);
+  }
 
 }
