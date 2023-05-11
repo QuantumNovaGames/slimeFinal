@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
   void Update()
   {
     KillPlayerFall();//restart lvl if player is below 0 y axis
-
+    
     anim.SetInteger("DamageType", 2);
 
     if (anim.GetBool("Damage"))
