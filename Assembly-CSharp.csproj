@@ -50,12 +50,14 @@
      <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
      <Compile Include="Assets\Imported Scripts\Retry Level Scripts\RetryLevel1.cs" />
      <Compile Include="Assets\PlaneScore.cs" />
+     <Compile Include="Assets\Cong Scripts\WaterScript.cs" />
      <Compile Include="Assets\Cong Scripts\EnemyAiTutorial.cs" />
      <Compile Include="Assets\Imported Scripts\cam.cs" />
      <Compile Include="Assets\Cong Scripts\PlaneScript.cs" />
      <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\AbstractTargetFollower.cs" />
      <Compile Include="Assets\Imported Scripts\Main Menu Scripts\LevelSelection.cs" />
      <Compile Include="Assets\Imported Scripts\Next Level Scripts\NextLevel1.cs" />
+     <Compile Include="Assets\BGmusic.cs" />
      <Compile Include="Assets\Imported Scripts\Main Menu Scripts\MainMenu.cs" />
      <Compile Include="Assets\Cong Scripts\CollisionGeneral.cs" />
      <Compile Include="Assets\Imported Scripts\Collectibles.cs" />
@@ -63,7 +65,6 @@
      <Compile Include="Assets\Imported Scripts\Play_collect.cs" />
      <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
      <Compile Include="Assets\Imported Scripts\EnemyController.cs" />
-     <Compile Include="Assets\Cong Scripts\WaterScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloZOffset.hlsl" />

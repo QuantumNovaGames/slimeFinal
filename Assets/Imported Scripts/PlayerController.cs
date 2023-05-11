@@ -36,6 +36,8 @@ public class PlayerController : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         originalStepOffset =  characterController.stepOffset;
         bigSlime.SetActive(false);
+
+        anim.SetInteger("DamageType", 2);
     }
 
     // Update is called once per frame
@@ -43,6 +45,17 @@ public class PlayerController : MonoBehaviour
     {
         KillPlayerFall();//restart lvl if player is below 0 y axis
 
+        anim.SetInteger("DamageType", 2);
+
+        if(anim.GetBool("Damage")){
+        }else{
+            Move();//put everything in Move to cleanup Update and manage recoil
+        }
+
+        
+    }
+
+    private void Move(){
         if(Input.GetKeyDown(KeyCode.Mouse0)){
             Attack();
         }
@@ -173,6 +186,14 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Attack");
     }
 
+    private void TakeDamage(){
+        anim.SetFloat("DamageType", 2f);
+        anim.SetTrigger("Damage");
+        characterController.Move(transform.TransformDirection(Vector3.back) * 2f);
+
+        //characterController.Move(Vector3.back * 2f * Time.deltaTime);
+    }
+
     /********************** Collider for Kicking Objects ***********************/
 
     //the following section allows character controller to push things away (hard)
@@ -185,6 +206,10 @@ public class PlayerController : MonoBehaviour
 
         if (rigidBody != null)
         {
+            if(hit.gameObject.layer == 9){
+                Debug.Log("Hit Enemy");
+                TakeDamage();
+            }
             var forceDirection = hit.gameObject.transform.position - transform.position;
             forceDirection.y = 0;
             forceDirection.Normalize();
@@ -203,6 +228,7 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
+
 
 
 

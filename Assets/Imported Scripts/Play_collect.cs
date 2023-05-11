@@ -8,6 +8,6 @@ public class Play_collect : MonoBehaviour
 
     public void crystalsCollected()
     {
-        numberofCrystals++;
+        ScoreScript.score++;
     }
 }
