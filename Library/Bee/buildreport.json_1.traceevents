@@ -1,0 +1,577 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1683785457557462, "dur": 1154858, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683785457557664, "dur": 11955, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683785457569620, "dur": 32161, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683785457601784, "dur": 457944, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683785458059731, "dur": 639182, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683785458698916, "dur": 13403, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683785458712662, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1683785457917894, "dur": 106888, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683785457918793, "dur": 32520, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683785458012400, "dur": 3740, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683785458016143, "dur": 8632, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683785458016737, "dur": 7493, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683785458028157, "dur": 998, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683785458027509, "dur": 1662, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683785458712796, "dur": 140, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683785458088091, "dur":712, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458088807, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683785458088861, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683785458088871, "dur":403, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683785458089289, "dur":374, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458089663, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675099, "dur":274, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675373, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675383, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675385, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675394, "dur":217, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675611, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675625, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675627, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675631, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675632, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675637, "dur":19, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675656, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675660, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675661, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675664, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675665, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675669, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675670, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675684, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675685, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675687, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675688, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675692, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675693, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675697, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675698, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675702, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675704, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675708, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675708, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675711, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675712, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675715, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675725, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458675744, "dur":1557, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683785458089321, "dur":349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458089670, "dur":2828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458092520, "dur":9678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683785458102203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458102306, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683785458103175, "dur":18071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458121249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458121254, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458121947, "dur":18160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458140111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458140118, "dur":2763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458142907, "dur":56017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458198927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458198933, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458200921, "dur":46600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458247526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458247533, "dur":10475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458258035, "dur":43685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458301724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458301731, "dur":6068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458307826, "dur":146289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458454122, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458454133, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458455339, "dur":74104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458529447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683785458529460, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683785458530579, "dur":144566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458089433, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458089702, "dur":2810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458092512, "dur":9788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683785458102303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458102308, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683785458103189, "dur":32684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458135877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458135882, "dur":7392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458143298, "dur":60719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458204020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458204026, "dur":4426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458208476, "dur":14315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458222795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458222803, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458223657, "dur":17792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458241454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458241468, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458242206, "dur":43268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458285478, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458285489, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458286263, "dur":64880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458351148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458351158, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458352026, "dur":52357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458404387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458404396, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458405218, "dur":140340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458545580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683785458545587, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683785458546449, "dur":128645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683785458089380, "dur":313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683785458089693, "dur":2821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683785458092515, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683785458092717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683785458103805, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683785458105436, "dur":15455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683785458120894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683785458120941, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683785458121521, "dur":13434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683785458134958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683785458134963, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683785458136463, "dur":157715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683785458294182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683785458294189, "dur":7668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683785458301884, "dur":253454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683785458555354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683785458555362, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683785458557103, "dur":118030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458089353, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458089675, "dur":2834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458092510, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683785458092651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458094298, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683785458095820, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1683785458095896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458095901, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1683785458096690, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1683785458096768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458096772, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1683785458097648, "dur":8520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458106171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458106216, "dur":4199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458110448, "dur":16833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458127285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458127295, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458127996, "dur":70957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458198957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458198964, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458199874, "dur":25887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458225764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458225770, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458226434, "dur":44722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458271162, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458271174, "dur":5408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458276611, "dur":89107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458365722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458365731, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458367264, "dur":209202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458576470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683785458576488, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683785458578053, "dur":97105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458089372, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458089689, "dur":2849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458092539, "dur":10452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683785458102994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458103001, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683785458103810, "dur":35868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458139683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458139689, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458142126, "dur":40064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458182194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458182202, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458183869, "dur":16147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458200019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458200025, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458201356, "dur":31733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458233094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458233103, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458234763, "dur":17357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458252124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458252132, "dur":6138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458258296, "dur":20657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458278993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458279003, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458280766, "dur":287826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458568596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683785458568603, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683785458569500, "dur":105635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458089393, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458089697, "dur":2844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458092543, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1683785458092744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458104365, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1683785458106019, "dur":18606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458124628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458124634, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458125273, "dur":19823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458145101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458145110, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458146390, "dur":16877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458163304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458163315, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458164155, "dur":21940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458186099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458186107, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458188094, "dur":15290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458203387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458203394, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458206429, "dur":31155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458238807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458238815, "dur":18414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458257259, "dur":16777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458274041, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458274051, "dur":2601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458276680, "dur":70807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458347492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458347501, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458348486, "dur":33795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458382286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458382295, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458383202, "dur":140622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458523830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683785458523838, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683785458525999, "dur":149094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458089452, "dur":254, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458089706, "dur":2794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458092516, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1683785458092715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458103479, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1683785458105954, "dur":29449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458135406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458135412, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458137077, "dur":17257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458154339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458154348, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458156521, "dur":32932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458189486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458189494, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458190519, "dur":43027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458233550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458233556, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458234915, "dur":114789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458349707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458349715, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458351871, "dur":120898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458472772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458472779, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683785458476918, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683785458476949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458476958, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683785458477668, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683785458477699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458477704, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683785458478905, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683785458478942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458478946, "dur":6478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683785458485479, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1683785458485591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458485596, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1683785458486401, "dur":1954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1683785458488358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458488363, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1683785458489735, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1683785458489764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458489816, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1683785458490557, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683785458490582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458490586, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683785458493942, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683785458493970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683785458493973, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683785458498516, "dur":176575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683785458089472, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683785458089710, "dur":2785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683785458092515, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1683785458092661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683785458098455, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1683785458099166, "dur":33808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime.exe" }}
+,{ "pid":12345, "tid":8, "ts":1683785458132980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683785458132988, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime.exe" }}
+,{ "pid":12345, "tid":8, "ts":1683785458134280, "dur":19066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683785458153352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683785458153362, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683785458154294, "dur":49327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683785458203624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683785458203630, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683785458207378, "dur":107573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683785458314955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683785458314962, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683785458315876, "dur":192135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683785458508015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683785458508023, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683785458509744, "dur":165345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458089516, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458089718, "dur":2785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458092513, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1683785458092656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458098173, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1683785458098972, "dur":35320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458134345, "dur":262, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458134613, "dur":20187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458154828, "dur":43710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458198542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458198548, "dur":3127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458201699, "dur":28747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458230452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458230462, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458233134, "dur":23210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458256347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458256447, "dur":5883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458262357, "dur":99643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458362008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458362019, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458363677, "dur":192069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458555749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683785458555755, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683785458556609, "dur":118531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458089493, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458089714, "dur":2764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458092519, "dur":30063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1683785458122585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458122713, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1683785458123267, "dur":54764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458178035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458178042, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458180609, "dur":16831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458197446, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458197461, "dur":7768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458205259, "dur":32813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458238841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458238848, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458239569, "dur":16642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458256218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458256228, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458258116, "dur":147370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458405546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458405552, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458406297, "dur":66354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458472657, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458472669, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683785458476043, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1683785458476076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458476083, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1683785458477095, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683785458477126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458477131, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683785458478767, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1683785458478794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458478831, "dur":5566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1683785458484426, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1683785458484454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458484461, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1683785458486474, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683785458486501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458486505, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683785458488260, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level4.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683785458488285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458488289, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level4.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683785458489858, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level3.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683785458489884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458489888, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level3.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683785458491289, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1683785458491312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458491316, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1683785458493641, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1683785458493664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458493667, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1683785458496077, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1683785458496388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458496393, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1683785458497549, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1683785458497673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683785458497679, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1683785458498484, "dur":176638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683785458089537, "dur":185, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683785458089722, "dur":2761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683785458092520, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1683785458092867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683785458123508, "dur":11956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1683785458135498, "dur":42528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458178030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683785458178040, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458180322, "dur":43016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458223346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683785458223904, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458224607, "dur":68683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458293296, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683785458293307, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458294989, "dur":104238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458399234, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683785458399244, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458400403, "dur":129077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458529483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683785458529489, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683785458530577, "dur":144555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458089661, "dur":5, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458089666, "dur":2810, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458092511, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1683785458092517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458093607, "dur":254, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1683785458093864, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1683785458093892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458094097, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1683785458095717, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1683785458095793, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458095984, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1683785458096703, "dur":1173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458097878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458098091, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458098987, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1683785458099823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458099827, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1683785458100956, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1683785458101040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458101171, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1683785458106300, "dur":99953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458206256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458206263, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458208113, "dur":16775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458224892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458224898, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458225574, "dur":21402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458246983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458246994, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458248304, "dur":33041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458281348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458281356, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458282384, "dur":62308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458344698, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458344709, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458345934, "dur":88898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458434837, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458434849, "dur":5293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458440165, "dur":193030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458633199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683785458633205, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683785458634186, "dur":40964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683785458089554, "dur":171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683785458089725, "dur":2810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683785458092537, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1683785458092797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683785458111927, "dur":3617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1683785458115573, "dur":19218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458134795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683785458134801, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458136316, "dur":141695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458278016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683785458278024, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458280530, "dur":92869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458373403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683785458373414, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458374320, "dur":56108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458430436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683785458430447, "dur":8211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458438686, "dur":234440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458673130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683785458673136, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683785458675048, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":13, "ts":1683785458675049, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458089575, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458089730, "dur":2814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458092545, "dur":9235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1683785458101783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458101843, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1683785458102655, "dur":16242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458118903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458119071, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458120920, "dur":13450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458134372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458134381, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458135182, "dur":30869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458166054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458166060, "dur":11585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458177669, "dur":17225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458194899, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458194911, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458195733, "dur":55049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458250788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458250797, "dur":7417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458258242, "dur":42774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458301021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458301030, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458302426, "dur":66025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458368457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458368466, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458369244, "dur":178067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458547314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683785458547320, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683785458548770, "dur":126329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458089681, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458089681, "dur":2826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458092514, "dur":9176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1683785458101693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458101708, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1683785458102599, "dur":61158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458163760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458163767, "dur":12413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458176214, "dur":23024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458199241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458199247, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458201425, "dur":17341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458218773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458218782, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458219674, "dur":17888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458237566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458237575, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458238879, "dur":18089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458256972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458256981, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458261159, "dur":52931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458314096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458314105, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458314978, "dur":190342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458505327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683785458505337, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683785458506705, "dur":168449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458089699, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458089699, "dur":2793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458092562, "dur":10932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1683785458103497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458103510, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1683785458105073, "dur":34410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683785458139513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458139525, "dur":3597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683785458143146, "dur":99280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683785458242430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458242436, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683785458243710, "dur":77324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683785458321040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458321049, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683785458321961, "dur":133056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683785458455022, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458455032, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683785458456272, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1683785458456297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458456336, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1683785458458753, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":16, "ts":1683785458458789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458458794, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":16, "ts":1683785458459714, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":16, "ts":1683785458459741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458459778, "dur":12924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":16, "ts":1683785458472734, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1683785458472766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458472771, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1683785458476069, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1683785458476097, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458476101, "dur":10895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1683785458487022, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1683785458487050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458487054, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1683785458490442, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level3" }}
+,{ "pid":12345, "tid":16, "ts":1683785458490471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458490476, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level3" }}
+,{ "pid":12345, "tid":16, "ts":1683785458493556, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level1.resS" }}
+,{ "pid":12345, "tid":16, "ts":1683785458493581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458493585, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level1.resS" }}
+,{ "pid":12345, "tid":16, "ts":1683785458494655, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1683785458494687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458494692, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1683785458496624, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tobia/Downloads/SlimeTime_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1683785458496655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683785458496659, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tobia/Downloads/SlimeTime_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1683785458497620, "dur":177475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683785458678173, "dur":1275, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1683785458712966, "dur": 480, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683785458712631, "dur": 825, "ph": "X", "name": "Write chrome-trace events", "args": {} },
