@@ -31,6 +31,11 @@ public class PlayerController : MonoBehaviour
   public float damageDelay = 1.0f;
   public float m_DamageCooldown = 0;
 
+  public Transform bulletSpawnPoint;
+  public GameObject bulletPrefab;
+
+  public float bulletSpeed = 5.0f;
+
 
   // Start is called before the first frame update
   void Start()
@@ -59,7 +64,7 @@ public class PlayerController : MonoBehaviour
     //
 
     //allows user to attack with Q keypress
-    if (Input.GetKeyDown(KeyCode.Q) && bigSlime.activeSelf)
+    if (Input.GetKeyDown(KeyCode.E) && bigSlime.activeSelf)
     {
       Attack();
     }
@@ -81,7 +86,7 @@ public class PlayerController : MonoBehaviour
 
   private void Move()
   {
-    if (Input.GetKeyDown(KeyCode.Mouse0))
+    if (Input.GetKeyDown(KeyCode.Mouse1))
     {
       Attack();
     }
@@ -224,7 +229,16 @@ public class PlayerController : MonoBehaviour
 
   private void Attack()
   {
+
+    if(hp < 200)
+      return;
     anim.SetTrigger("Attack");
+    var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+    bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletSpeed;
+
+    transform.localScale *= 0.5f;
+    hp -= 100;
+
   }
 
   private void TakeDamage()
@@ -263,6 +277,11 @@ public class PlayerController : MonoBehaviour
           transform.localScale *= 0.5f;
           hp -= 100;
 
+        }
+      }else if (hit.gameObject.layer == 12){
+        Debug.Log("HP Barrier Col");
+        if(hp < 200){
+          Destroy(hit.gameObject);
         }
       }
       var forceDirection = hit.gameObject.transform.position - transform.position;
