@@ -4,11 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class NextLevel1 : MonoBehaviour
+public class NextLevel : MonoBehaviour
 {
+  public void Start()
+  {
+    Cursor.lockState = CursorLockMode.None;
+  }
+
   public void NextLevelButton()
   {
-    SceneManager.LoadScene("");
+    SceneManager.LoadScene("LevelSelection");
   }
 
   public void MainMenuButton()

@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Play_collect : MonoBehaviour
 {
-    public int numberofCrystals { get; private set; }
+  public int numberofCrystals { get; private set; }
 
-    public void crystalsCollected()
-    {
-        ScoreScript.score++;
-    }
+  public void crystalsCollected()
+  {
+    ScoreScript.score++;
+  }
 }

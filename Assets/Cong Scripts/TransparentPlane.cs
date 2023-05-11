@@ -5,20 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class TransparentPlane : MonoBehaviour
 {
-    // Start is called before the first frame update
-    
-    private void OnCollisionEnter(Collision other) {
-        ScoreScript.score+=1;
-        SceneManager.LoadScene("SampleScene");
-    }
-    void Start()
-    {
-        
-    }
+  // Start is called before the first frame update
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  private void OnCollisionEnter(Collision other)
+  {
+    ScoreScript.score += 1;
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+  }
+  void Start()
+  {
+
+  }
+
+  // Update is called once per frame
+  void Update()
+  {
+
+  }
 }

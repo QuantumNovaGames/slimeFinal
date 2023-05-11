@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelection : MonoBehaviour
 {
+  public void Start()
+  {
+    Cursor.lockState = CursorLockMode.None;
+  }
+
   public void BackToMainMenu()
   {
     SceneManager.LoadScene("MainMenu");
@@ -13,7 +18,7 @@ public class LevelSelection : MonoBehaviour
 
   public void GoToLevel1()
   {
-    SceneManager.LoadScene("SampleScene");
+    SceneManager.LoadScene("Level1");
     Debug.Log("Player selected level 1");
   }
 
