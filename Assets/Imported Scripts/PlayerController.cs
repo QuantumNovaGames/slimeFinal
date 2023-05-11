@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -39,6 +40,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        KillPlayerFall();//restart lvl if player is below 0 y axis
+
         if(Input.GetKeyDown(KeyCode.Mouse0)){
             Attack();
         }
@@ -165,9 +168,9 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Attack");
     }
 
-    /********************** Collider ***********************/
+    /********************** Collider for Kicking Objects ***********************/
 
-    //the following section allows character controller to push things away
+    //the following section allows character controller to push things away (hard)
     [SerializeField]
     private float forceMagnitude;
 
@@ -186,6 +189,16 @@ public class PlayerController : MonoBehaviour
             
         }
     }
+
+    /********************** Kill the Player if they fall ***********************/
+
+    private void KillPlayerFall(){
+        if(transform.position.y <= 0){
+            ScoreScript.score = 0;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
 
 
    

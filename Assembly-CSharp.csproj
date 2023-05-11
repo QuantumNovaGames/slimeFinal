@@ -38,28 +38,62 @@
   <ItemGroup>
      <Compile Include="Assets\Kawaii Slimes\Scripts\AI\Face.cs" />
      <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Imported Scripts\Retry Level Scripts\RetryLevel3.cs" />
+     <Compile Include="Assets\Imported Scripts\Next Level Scripts\NextLevel3.cs" />
+     <Compile Include="Assets\Imported Scripts\Retry Level Scripts\RetryLevel2.cs" />
+     <Compile Include="Assets\Imported Scripts\Next Level Scripts\NextLevel2.cs" />
      <Compile Include="Assets\Cong Scripts\CharController.cs" />
      <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
      <Compile Include="Assets\Cong Scripts\camCong.cs" />
+     <Compile Include="Assets\Cong Scripts\ScoreScript.cs" />
      <Compile Include="Assets\Imported Scripts\PlayerController.cs" />
      <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\Imported Scripts\Retry Level Scripts\RetryLevel1.cs" />
+     <Compile Include="Assets\PlaneScore.cs" />
+     <Compile Include="Assets\Cong Scripts\EnemyAiTutorial.cs" />
      <Compile Include="Assets\Imported Scripts\cam.cs" />
+     <Compile Include="Assets\Cong Scripts\PlaneScript.cs" />
      <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\Imported Scripts\Main Menu Scripts\LevelSelection.cs" />
+     <Compile Include="Assets\Imported Scripts\Next Level Scripts\NextLevel1.cs" />
+     <Compile Include="Assets\Imported Scripts\Main Menu Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Cong Scripts\CollisionGeneral.cs" />
      <Compile Include="Assets\Imported Scripts\Collectibles.cs" />
+     <Compile Include="Assets\Cong Scripts\TransparentPlane.cs" />
      <Compile Include="Assets\Imported Scripts\Play_collect.cs" />
      <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
      <Compile Include="Assets\Imported Scripts\EnemyController.cs" />
-     <Compile Include="Assets\Cong Scripts\EnemyAiTutorial.cs" />
-     <Compile Include="Assets\Cong Scripts\CollisionGeneral.cs" />
+     <Compile Include="Assets\Cong Scripts\WaterScript.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloZOffset.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Kawaii Slimes\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\readme.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloOutlineUtil.hlsl" />
      <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\Unitychan_chara_eye.shader" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloInvLerpRemap.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_Shared.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -690,9 +724,6 @@
     <Reference Include="Unity.2D.Tilemap.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -704,9 +735,6 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -738,17 +766,11 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -756,11 +778,23 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AI.Navigation">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
         <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>C:\Users\tobia\OneDrive\Desktop\SlimeTime\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
