@@ -8,7 +8,7 @@ using TMPro;
 public class LevelSelection : MonoBehaviour
 {
   public Button[] lvlButtons;
-  public TMP_Text[] scores = new TMP_Text[10];
+  public TMP_Text[] scores;
   public static int selectedLevel = 10;
 
   public void Start()
@@ -43,18 +43,28 @@ public class LevelSelection : MonoBehaviour
     }
     else if (selectedLevel == 1)
     {
+      scores[0].SetText("Score: " + score1Text.ToString());
       scores[1].SetText("Score: " + score2Text.ToString());
     }
     else if (selectedLevel == 2)
     {
+      scores[0].SetText("Score: " + score1Text.ToString());
+      scores[1].SetText("Score: " + score2Text.ToString());
       scores[2].SetText("Score: " + score3Text.ToString());
     }
     else if (selectedLevel == 3)
     {
+      scores[0].SetText("Score: " + score1Text.ToString());
+      scores[1].SetText("Score: " + score2Text.ToString());
+      scores[2].SetText("Score: " + score3Text.ToString());
       scores[3].SetText("Score: " + score4Text.ToString());
     }
     else if (selectedLevel == 4)
     {
+      scores[0].SetText("Score: " + score1Text.ToString());
+      scores[1].SetText("Score: " + score2Text.ToString());
+      scores[2].SetText("Score: " + score3Text.ToString());
+      scores[3].SetText("Score: " + score4Text.ToString());
       scores[4].SetText("Score: " + score5Text.ToString());
     }
     else
